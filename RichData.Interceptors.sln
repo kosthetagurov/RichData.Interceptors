@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RichData.Interceptors", "RichData.Interceptors\RichData.Interceptors.csproj", "{B247E312-21AD-4BFC-9858-81FF9C6D0FD8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B247E312-21AD-4BFC-9858-81FF9C6D0FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B247E312-21AD-4BFC-9858-81FF9C6D0FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B247E312-21AD-4BFC-9858-81FF9C6D0FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B247E312-21AD-4BFC-9858-81FF9C6D0FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6BB96DC-BFDF-4136-9A41-83A7A6F28F54}
+	EndGlobalSection
+EndGlobal
