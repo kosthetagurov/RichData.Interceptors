@@ -11,19 +11,14 @@ namespace RichData.Interceptors.Core.Logging
 {
     public abstract class InterceptorBase : DbCommandInterceptor
     {
-        public InterceptorBase()
-        {
-
-        }
-
-        protected virtual object GetTrace(DbCommand command, CommandEventData eventData)
+        protected virtual Trace GetTrace(DbCommand command, CommandEventData eventData)
         {
             return new Trace(command, eventData);
         }
 
-        protected virtual void Trace(object log, Exception exception = null)
+        protected virtual void Trace(Trace log, Exception exception = null)
         {
-            Console.WriteLine(log.ToString());
+            Console.WriteLine(log.ToString(exception));
         }
     }
 }
